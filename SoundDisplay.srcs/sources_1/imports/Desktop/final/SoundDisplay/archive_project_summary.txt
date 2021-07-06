@@ -1,0 +1,232 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+* Section (5) - CONFIGURATION SETTINGS/FILES
+*  This section summarizes the configuration settings/files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = SoundDisplay
+Directory = C:/Users/86947/Desktop/4a4bFrankMonkey.xpr/SoundDisplay
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Background.v
+E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/BattleFull.v
+E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Boss.v
+C:/Users/86947/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Character.v
+E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/DBCRaw.v
+C:/Users/86947/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Eureka.v
+E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Random.v
+E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/choice.v
+C:/Users/86947/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/choosegame.v
+C:/Users/86947/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu.v
+C:/Users/86947/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu_display.v
+C:/Users/86947/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/start.v
+C:/Users/86947/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/start_display.v
+C:/Users/86947/Desktop/4a4bFrankMonkey.xpr/SoundDisplay/archive_project_summary.txt
+D:/2026proj/new/monkeybigger12.mem
+D:/2026proj/new/dragonbigger11.mem
+D:/2026proj/start4.mem
+D:/2026proj/new/monkey12.mem
+D:/2026proj/new/dragon11.mem
+D:/2026proj/start1.mem
+D:/2026proj/new/monkeybig12.mem
+D:/2026proj/new/monkey11.mem
+D:/2026proj/dragon12.mem
+D:/2026proj/new/dragonbigger12.mem
+D:/2026proj/new/monkeybigger11.mem
+D:/2026proj/giftbox.mem
+D:/2026proj/dragonbig12.mem
+D:/2026proj/new/dragonbig11.mem
+D:/2026proj/firechoose.mem
+D:/2026proj/dragonchoose.mem
+D:/2026proj/new/monkeybig11.mem
+E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/Used pics/thunder.mem
+E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/Used pics/snsmenu.mem
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/AppWav.v
+./SoundDisplay.srcs/sources_1/new/Audio_Capture.v
+./SoundDisplay.srcs/sources_1/imports/sources_1/new/Background.v
+./SoundDisplay.srcs/sources_1/imports/sources_1/new/BattleFull.v
+./SoundDisplay.srcs/sources_1/imports/sources_1/new/Boss.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/Cartisian.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Character.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/DBC.v
+./SoundDisplay.srcs/sources_1/imports/sources_1/new/DBCRaw.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Eureka.v
+./SoundDisplay.srcs/sources_1/new/IJKCoor.v
+./SoundDisplay.srcs/sources_1/new/LOST.v
+./SoundDisplay.srcs/sources_1/new/Lava.v
+./SoundDisplay.srcs/sources_1/new/LavaJump.v
+./SoundDisplay.srcs/sources_1/new/Monkey.v
+./SoundDisplay.srcs/sources_1/new/MyClk.v
+./SoundDisplay.srcs/sources_1/new/NumToSeg.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled4b.v
+./SoundDisplay.srcs/sources_1/new/Oled_Display.v
+./SoundDisplay.srcs/sources_1/imports/sources_1/new/Random.v
+./SoundDisplay.srcs/sources_1/new/Safehouse.v
+./SoundDisplay.srcs/sources_1/new/Segment.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/SoundWaveHeight.v
+./SoundDisplay.srcs/sources_1/new/Star.v
+./SoundDisplay.srcs/sources_1/new/Volcano.v
+./SoundDisplay.srcs/sources_1/new/VolcanoOnce.v
+./SoundDisplay.srcs/sources_1/imports/sources_1/new/choice.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/choosegame.v
+./SoundDisplay.srcs/sources_1/new/dff.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/intensity.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu_display.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/peaksegment.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/segment.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/start.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/start_display.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/task4a.v
+./SoundDisplay.srcs/sources_1/new/Top_Student.v
+./SoundDisplay.srcs/sources_1/imports/Desktop/Lava.mem
+./SoundDisplay.srcs/sources_1/imports/Desktop/star.mem
+./SoundDisplay.srcs/sources_1/imports/Desktop/monkey1.mem
+./SoundDisplay.srcs/sources_1/imports/Desktop/monkey2.mem
+./SoundDisplay.srcs/sources_1/imports/Desktop/monkey3.mem
+./SoundDisplay.srcs/sources_1/imports/Desktop/Volcano.mem
+./SoundDisplay.srcs/sources_1/imports/Desktop/House.mem
+./SoundDisplay.srcs/sources_1/imports/Desktop/lost.mem
+./SoundDisplay.srcs/sources_1/imports/Desktop/4a4bFrankMonkey.xpr/SoundDisplay/archive_project_summary.txt
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/monkeybigger12.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/dragonbigger11.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/start4.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/monkey12.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/dragon11.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/start1.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/monkeybig12.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/monkey11.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/dragon12.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/dragonbigger12.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/monkeybigger11.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/giftbox.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/dragonbig12.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/dragonbig11.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/firechoose.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/dragonchoose.mem
+./SoundDisplay.srcs/sources_1/imports/2026proj/new/monkeybig11.mem
+./SoundDisplay.srcs/sources_1/imports/sources_1/imports/Desktop/Used pics/thunder.mem
+./SoundDisplay.srcs/sources_1/imports/sources_1/imports/Desktop/Used pics/snsmenu.mem
+
+<constrs_1>
+./SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc
+
+<sim_1>
+None
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/86947/Desktop/4a4bFrankMonkey.xpr/SoundDisplay/vivado.jou
+Archived Location = ./SoundDisplay/vivado.jou
+
+Source File = C:/Users/86947/Desktop/4a4bFrankMonkey.xpr/SoundDisplay/vivado.log
+Archived Location = ./SoundDisplay/vivado.log
+
+Section (5) - CONFIGURATION SETTINGS/FILES
+------------------------------------------
+List of configuration settings/files that were added to the archived project:-
+
+

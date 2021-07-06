@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2018.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="38" Path="C:/Users/MSI/Desktop/SoundDisplay/.Xil/Vivado-13720-FrankMSI/PrjAr/_X_/SoundDisplay.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="4bbcd04238664c2a9f3074d88304a9d7"/>
+    <Option Name="Part" Val="xc7a35tcpg236-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSAVendor" Val="xilinx"/>
+    <Option Name="DSANumComputeUnits" Val="60"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/AppWav.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/AppWav.v"/>
+          <Attr Name="ImportTime" Val="1617314296"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Audio_Capture.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/sem2/SoundDisplay-20210317T060332Z-001/SoundDisplay/SoundDisplay.srcs/sources_1/new/Audio_Capture.v"/>
+          <Attr Name="ImportTime" Val="1570395503"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Background.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Background.v"/>
+          <Attr Name="ImportTime" Val="1617390500"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/BattleFull.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/BattleFull.v"/>
+          <Attr Name="ImportTime" Val="1617408374"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Boss.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Boss.v"/>
+          <Attr Name="ImportTime" Val="1617390254"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/Cartisian.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/Cartisian.v"/>
+          <Attr Name="ImportTime" Val="1616745266"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Character.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Character.v"/>
+          <Attr Name="ImportTime" Val="1617331370"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/DBC.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/DBC.v"/>
+          <Attr Name="ImportTime" Val="1616524146"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/DBCRaw.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/DBCRaw.v"/>
+          <Attr Name="ImportTime" Val="1617358100"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Eureka.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Eureka.v"/>
+          <Attr Name="ImportTime" Val="1617405703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/IJKCoor.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/IJKCoor.v"/>
+          <Attr Name="ImportTime" Val="1617114407"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/LOST.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/LOST.v"/>
+          <Attr Name="ImportTime" Val="1617327274"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Lava.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/Lava.v"/>
+          <Attr Name="ImportTime" Val="1617309261"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/LavaJump.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/LavaJump.v"/>
+          <Attr Name="ImportTime" Val="1617333067"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Monkey.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/Monkey.v"/>
+          <Attr Name="ImportTime" Val="1617327020"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/MyClk.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/sem2/SoundDisplay-20210317T060332Z-001/SoundDisplay/SoundDisplay.srcs/sources_1/new/MyClk.v"/>
+          <Attr Name="ImportTime" Val="1615961042"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/NumToSeg.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/NumToSeg.v"/>
+          <Attr Name="ImportTime" Val="1617178959"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled4b.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled4b.v"/>
+          <Attr Name="ImportTime" Val="1617314296"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Oled_Display.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/sem2/SoundDisplay-20210317T060332Z-001/SoundDisplay/SoundDisplay.srcs/sources_1/new/Oled_Display.v"/>
+          <Attr Name="ImportTime" Val="1570395512"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Random.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Random.v"/>
+          <Attr Name="ImportTime" Val="1617324752"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Safehouse.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/Safehouse.v"/>
+          <Attr Name="ImportTime" Val="1617325015"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Segment.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/Segment.v"/>
+          <Attr Name="ImportTime" Val="1617186628"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/SoundWaveHeight.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/SoundWaveHeight.v"/>
+          <Attr Name="ImportTime" Val="1617316158"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Star.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/Star.v"/>
+          <Attr Name="ImportTime" Val="1617282963"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Volcano.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/Volcano.v"/>
+          <Attr Name="ImportTime" Val="1617324534"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/VolcanoOnce.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../SoundDisplay.srcs/sources_1/new/VolcanoOnce.v"/>
+          <Attr Name="ImportTime" Val="1617315909"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/choice.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/choice.v"/>
+          <Attr Name="ImportTime" Val="1617399142"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/choosegame.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/choosegame.v"/>
+          <Attr Name="ImportTime" Val="1617327686"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/dff.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/sem2/SoundDisplay-20210317T060332Z-001/SoundDisplay/SoundDisplay.srcs/sources_1/new/dff.v"/>
+          <Attr Name="ImportTime" Val="1615961042"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/intensity.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/intensity.v"/>
+          <Attr Name="ImportTime" Val="1616572442"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu.v"/>
+          <Attr Name="ImportTime" Val="1617400029"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu_display.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu_display.v"/>
+          <Attr Name="ImportTime" Val="1617412892"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/peaksegment.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/peaksegment.v"/>
+          <Attr Name="ImportTime" Val="1616572610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/segment.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/segment.v"/>
+          <Attr Name="ImportTime" Val="1616254786"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/start.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/start.v"/>
+          <Attr Name="ImportTime" Val="1617231588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/start_display.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../Song4.2noon.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/start_display.v"/>
+          <Attr Name="ImportTime" Val="1617282946"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/task4a.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../PJT2026/4b most basic/SoundDisplay/SoundDisplay.srcs/sources_1/new/task4a.v"/>
+          <Attr Name="ImportTime" Val="1616252164"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Top_Student.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/sem2/SoundDisplay-20210317T060332Z-001/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v"/>
+          <Attr Name="ImportTime" Val="1570395690"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Lava.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../Lava.mem"/>
+          <Attr Name="ImportTime" Val="1617218049"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/star.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../star.mem"/>
+          <Attr Name="ImportTime" Val="1616863874"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/monkey1.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../monkey1.mem"/>
+          <Attr Name="ImportTime" Val="1616827342"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/monkey2.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../monkey2.mem"/>
+          <Attr Name="ImportTime" Val="1616827352"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/monkey3.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../monkey3.mem"/>
+          <Attr Name="ImportTime" Val="1616826434"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/Volcano.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../Volcano.mem"/>
+          <Attr Name="ImportTime" Val="1617251885"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/House.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../House.mem"/>
+          <Attr Name="ImportTime" Val="1617251916"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/lost.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../lost.mem"/>
+          <Attr Name="ImportTime" Val="1617325082"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/4a4bFrankMonkey.xpr/SoundDisplay/archive_project_summary.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../archive_project_summary.txt"/>
+          <Attr Name="ImportTime" Val="1617333330"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/monkeybigger12.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/monkeybigger12.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/dragonbigger11.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/dragonbigger11.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/start4.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/start4.mem"/>
+          <Attr Name="ImportTime" Val="1617199248"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/monkey12.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/monkey12.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/dragon11.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/dragon11.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/start1.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/start1.mem"/>
+          <Attr Name="ImportTime" Val="1617199240"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/monkeybig12.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/monkeybig12.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/monkey11.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/monkey11.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/dragon12.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/dragon12.mem"/>
+          <Attr Name="ImportTime" Val="1617324979"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/dragonbigger12.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/dragonbigger12.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/monkeybigger11.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/monkeybigger11.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/giftbox.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/giftbox.mem"/>
+          <Attr Name="ImportTime" Val="1617178112"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/dragonbig12.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/dragonbig12.mem"/>
+          <Attr Name="ImportTime" Val="1617324995"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/dragonbig11.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/dragonbig11.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/firechoose.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/firechoose.mem"/>
+          <Attr Name="ImportTime" Val="1617326363"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/dragonchoose.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/dragonchoose.mem"/>
+          <Attr Name="ImportTime" Val="1617326348"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/2026proj/new/monkeybig11.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/2026proj/new/monkeybig11.mem"/>
+          <Attr Name="ImportTime" Val="1617287102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/Desktop/Used pics/thunder.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/Used pics/thunder.mem"/>
+          <Attr Name="ImportTime" Val="1617355968"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/Desktop/Used pics/snsmenu.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="E:/SoundDisplayBattle.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/imports/Desktop/Used pics/snsmenu.mem"/>
+          <Attr Name="ImportTime" Val="1617345140"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/final/SoundDisplay/archive_project_summary.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../archive_project_summary.txt"/>
+          <Attr Name="ImportTime" Val="1617416612"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Desktop/won.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../won.mem"/>
+          <Attr Name="ImportTime" Val="1617414116"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/SoundDisplay/archive_project_summary.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../archive_project_summary.txt"/>
+          <Attr Name="ImportTime" Val="1617421956"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/archive_project_summary.txt"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Top_Student"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/new/Basys3_Master.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="D:/sem2/SoundDisplay-20210317T060332Z-001/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc"/>
+          <Attr Name="ImportTime" Val="1570394606"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Top_Student"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+  <Board/>
+</Project>
